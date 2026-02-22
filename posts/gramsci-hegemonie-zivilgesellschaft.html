@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hegemonie, Zivilgesellschaft und der Staat als Erzieher — Lektürenotizen</title>
+<style>
+:root {
+  --ink: #1a1a1a;  --mid: #555;  --faint: #888;  --rule: #ddd;
+  --accent: #2d5a27;  --accent-light: #e8f0e6;
+  --interp-bg: #f5f0e8;  --interp-border: #b89a5a;
+  --bg: #fafaf8;  --white: #fff;  --max: 720px;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--serif); background: var(--bg); color: var(--ink);
+       line-height: 1.8; font-size: 18px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { border-bottom: 2px solid var(--ink); padding: 2.5rem 1.5rem 1.5rem; text-align: center; }
+.site-header h1 { font-family: var(--sans); font-size: 1.9rem; font-weight: 700; letter-spacing: -.5px; }
+.site-header h1 a { color: inherit; text-decoration: none; }
+.site-header .subtitle { font-size: .88rem; color: var(--mid); margin-top: .4rem; font-style: italic; }
+.site-header nav { margin-top: 1rem; font-family: var(--sans); font-size: .82rem; }
+.site-header nav a { margin: 0 .75rem; color: var(--mid); text-transform: uppercase; letter-spacing: .06em; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+
+/* Index */
+.post-list { list-style: none; }
+.post-list li { padding: 2.2rem 0; border-bottom: 1px solid var(--rule); }
+.post-list li:first-child { padding-top: 0; }
+.post-meta { font-family: var(--sans); font-size: .75rem; color: var(--faint);
+             text-transform: uppercase; letter-spacing: .07em; margin-bottom: .35rem; }
+.post-list h2 { font-size: 1.3rem; line-height: 1.3; margin-bottom: .45rem; }
+.post-list h2 a { color: var(--ink); }
+.post-list h2 a:hover { color: var(--accent); text-decoration: none; }
+.post-excerpt { font-size: .93rem; color: var(--mid); margin-bottom: .7rem; }
+.source-tag { display: inline-block; background: var(--accent-light); color: var(--accent);
+              font-family: var(--sans); font-size: .72rem; padding: .18rem .55rem;
+              border-radius: 2px; font-weight: 600; letter-spacing: .04em; }
+.read-more { font-family: var(--sans); font-size: .8rem; font-weight: 700; color: var(--accent);
+             letter-spacing: .03em; margin-top: .5rem; display: inline-block; }
+
+/* Single post */
+.back-link { font-family: var(--sans); font-size: .8rem; color: var(--mid);
+             display: inline-block; margin-bottom: 2rem; }
+.post-header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
+.post-header h1 { font-size: 1.85rem; line-height: 1.25; margin: .6rem 0 .6rem; }
+.post-body h2 { font-size: 1.05rem; font-family: var(--sans); font-weight: 700;
+                margin: 2.2rem 0 .65rem; color: var(--ink); border-bottom: 1px solid var(--rule); padding-bottom: .3rem; }
+.post-body p { margin-bottom: 1.1rem; }
+.post-body blockquote {
+  border-left: 3px solid var(--accent); margin: 1.4rem 0;
+  padding: .7rem 1.2rem; background: var(--accent-light); font-style: italic; }
+.post-body blockquote cite {
+  display: block; font-style: normal; font-family: var(--sans);
+  font-size: .76rem; color: var(--faint); margin-top: .35rem; }
+/* Own interpretation callout */
+.interp {
+  border-left: 3px solid var(--interp-border); margin: 1.4rem 0;
+  padding: .7rem 1.2rem; background: var(--interp-bg); }
+.interp-label {
+  font-family: var(--sans); font-size: .72rem; font-weight: 700;
+  color: var(--interp-border); text-transform: uppercase; letter-spacing: .07em;
+  margin-bottom: .35rem; }
+.interp p { margin-bottom: .5rem; color: #3a3020; }
+.interp p:last-child { margin-bottom: 0; }
+.cite-line { font-family: var(--sans); font-size: .8rem; color: var(--faint);
+             display: block; margin-bottom: .6rem; margin-top: -.4rem; }
+.post-references { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+                   font-family: var(--sans); font-size: .82rem; color: var(--mid); }
+.post-references h3 { font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+                      margin-bottom: .65rem; color: var(--faint); }
+.intro { font-size: .96rem; color: var(--mid); font-style: italic;
+         border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 1.8rem; }
+footer { border-top: 1px solid var(--rule); text-align: center; padding: 1.5rem;
+         font-family: var(--sans); font-size: .76rem; color: var(--faint); }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <h1><a href="../index.html">Lektürenotizen</a></h1>
+  <p class="subtitle">Gedanken aus der Forschung zu Globalisierung, Ungleichheit und ökologischer Transformation</p>
+  <nav><a href="../index.html">Alle Beiträge</a></nav>
+</header>
+<main class="container">
+  <a class="back-link" href="../index.html">← Alle Beiträge</a>
+  <article>
+    <header class="post-header">
+      <div class="source-tag">Lektürenotiz</div>
+      <h1>Hegemonie, Zivilgesellschaft und der Staat als Erzieher</h1>
+      <div class="post-meta">22. Februar 2026 &ensp;·&ensp; Philipp Schöneberg</div>
+    </header>
+    <p class="intro">Antonio Gramscis Gefängnishefte sind ein zentraler Referenzpunkt für die kritische Staatstheorie. Im Folgenden halte ich die Gedanken fest, die mich bei der Lektüre besonders beschäftigt haben – und die ich zunehmend als analytischen Schlüssel für die EU-Lieferkettenregulierung (CSDDD) und den Omnibus-Prozess zu lesen beginne.</p>
+    <div class="post-body">
+<h2>State and Civil Society</h2>
+<p>Drei verbundene Konzepte: Caesarism, war of position, and civil society</p>
+<p>Caesarism ist ein Konzept, das nicht nur Faschismus beschreibt, sondern einen weiteren Kontext hat. Es beschreibt einen Kompromiss zwischen zwei fundamentalen sozialen Kräften, der durch eine dritte Kraft aufgelöst wird.</p>
+<span class="cite-line">(Gramsci, 1971, p. 206)</span>
+<p>War of position (Stellungskrieg) und war of maneuver (Bewegungskrieg) beschreiben zwei Modi der Auseinandersetzung mit dem Staat. Der Stellungskrieg beschreibt die Situation, in der ein frontaler Angriff nicht möglich ist, weil das feindliche System zu stabil ist.</p>
+<span class="cite-line">(Gramsci, 1971, page 206-207)</span>
+<p>Eine soziale Gruppe muss bereits Führung ausüben, also hegemonial sein, um regieren zu können.</p>
+<p>Gramsci hat keine eindeutige Definitionen der Zivilgesellschaft oder des Staates.</p>
+<span class="cite-line">(Gramsci, 1971, p. 207)</span>
+<p>Die Krise des Staates beginnt mit dem Auseinanderdriften der politischen Repräsentanten und der Repräsentierten. In dieser Situation entsteht eine Autoritätskrise und somit eine Staatskrise.</p>
+<span class="cite-line">(Gramsci, 1971, p. 210)</span>
+<p>Der Cäsarismus beschreibt eine Situation, in der sich zwei Kräfte - eine progressiv, eine reaktionär - im Konflikt gegenüberstehen, dessen Ausgang nur die Katastrophe sein kann. Dann kommt eine dritte Kraft, meist eine große Persönlichkeit, die den Konflikt auflöst. Je nach Auflösung des Konflikts kann der Cäsarismus also sowohl progressiv, als auch reaktionär sein.</p>
+<span class="cite-line">(Gramsci, 1971, p. 219)</span>
+<p>Gramsci schreibt, jede Koalitionsregierung sei bereits eine Anfangsform des Cäsarismus, während die landläufige Meinung sei, dass Koalitionsregierungen ein Bollwerk gegen den Cäsarismus wären.</p>
+<span class="cite-line">(Gramsci, 1971, p. 220)</span>
+<p>Klassen produzieren Parteien und Parteien stellen das Personal für Staat und Regierung dar, also die Führer:innen der politischen und Zivilgesellschaft.</p>
+<span class="cite-line">(Gramsci, 1971, p. 227)</span>
+<p>Parteien müssen theoretisch-doktrinäre Arbeit leisten, d. h. aktiv Konsens formen, um eine intellektuelle Durchdringung in die Zivilgesellschaft zu bewirken.</p>
+<p>Hier zeigt sich eine relevante Abweichung zwischen Gramsci und liberalen Demokratietheoretikern: Konsens ist nicht Ausgangspunkt von Politik, sondern wird aktiv geformt.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> Man könnte argumentieren, dass dies im Rahmen der wirkmächtigen Lobbyarbeit beim Omnibus passiert ist: Die Interessenvertretung hat bestimmte Konzepte (Kostenersparnis, Wachstumstreiber) strategisch im Diskurs platziert. “Produktion von Selbstverständlichkeit”</p>
+<p>Gramsci beschreibt hier, wie das Fehlen echter intellektueller Hegemoniearbeit zu einer Entleerung des politischen Raums führt – und wie Bürokratie und Administration dann politische Funktion übernehmen, ohne demokratische Legitimation.</p>
+<p><strong>Eigene Interpretation:</strong> Das könnte eine interessante Parallele zur Kommissionsbürokratie im Omnibus-Prozess sein.</p></div>
+<span class="cite-line">(Gramsci, 1971, pp. 227-228)</span>
+<p>Mit Verweis auf Rosa Luxemburg zieht Gramsci Bezüge zwischen Militärtaktik und politischen Auseinandersetzungen: Ökonomische Faktoren wie Krisen ermöglichen es - gleich der Artillerie, die Löcher in die gegnerische Verteidigung schlägt - den eigenen Truppen, wichtige strategische Siege zu erzielen.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> wichtiger Hinweis in Bezug auf den Omnibus: Inwiefern hat die wirtschaftliche Krise (oder ihre Behauptung) den ideologischen Gegenschlag des Omnibus ermöglicht? Wie wurde die wirtschaftliche Krisensituation im Omnibus-Konsultationsprozess argumentativ eingesetzt, und durch wen?</p>
+<p>War die Wirtschaftskrise real oder behauptet? Gramsci würde sagen: Das spielt eine Rolle, aber eine hegemoniale Formation braucht keine vollständig wahre Krise, sondern nur eine glaubwürdige. Und Glaubwürdigkeit ist selbst ein Produkt von theoretisch-doktrinären Arbeit.</p></div>
+<span class="cite-line">(Gramsci, 1971, p. 233)</span>
+<p>Gramsci erklärt allerdings, dass es in modernen und komplexen Zivilgesellschaften nicht so einfach ist, die Verteidigungslinien zu durchbrechen. Im Gegenteil: Bisweilen wirken günstige Gelegenheiten als Möglichkeiten des Durchbruches, nur um dann zu merken, dass die Verteidigungslinien doch weitestgehend intakt sind.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> War möglicherweise eigentlich der EU Green Deal der Angriff auf die Positionen der Hegemonialmächte und der Omnibus in diesem Sinne eine Gegenreformation? Dann wäre der Green Deal eher der Artillerieangriff, der die wichtigsten Verteidigungslinien doch nicht durchbrechen konnte. Dann ist der Omnibus die Wiederherstellung hegemonialer Normalität nach einer Störung.</p>
+<p><strong>Resultierende Fragestellung:</strong> Müsste man nicht zurück in 2018/2019 gehen und herausfinden, wieso es überhaupt möglich war, einen Green Deal zu verabschieden? Was ist dann im Nachgang passiert? Wie hat sich die rechte Hegemonialmacht in der Zwischenzeit wieder so robust aufgestellt, dass sie nun in der Lage waren, die erzielten Landgewinne zurückzuerobern?</p></div>
+<span class="cite-line">(Gramsci, 1971, p. 235)</span>
+<p>Der Staat als Erzieher: Der Staat regiert nicht nur durch Gesetze und Zwang, sondern auch durch die Formung von Zustimmung (“manufacturing consent”): Moral und Denken der Bevölkerung werden an die wirtschaftlichen Erfordernisse des Produktionsapparates angepasst. Aus Notwendigkeit und Zwang wird “Freiheit”. Das ist die hegemoniale Kraft: Zwang und und strukturelle Forderungen erscheinen als vernünftig und natürlich.</p>
+<p>Innerhalb der Zivilgesellschaft wird zwar ohne Zwang, aber durch kollektiven Druck in Form von Ritualen und Traditionen, Gewohnheiten und Denkweisen Einfluss genommen.</p>
+<span class="cite-line">(Gramsci, 1971, p. 242)</span>
+<p>Die Mächtetrennung ist lt. Gramsci das Ergebnis eines Kampfes zwischen der Zivilgesellschaft und der politischen Gesellschaft in einer spezifischen historischen Periode. Dies hat damit zu tun, dass bestimmte intellektuelle Schichten (Staatsbedienstete, Militärbürokratie) weiterhin aus alten dominanten Klassen rekrutiert werden.</p>
+<span class="cite-line">(Gramsci, 1971, p. 245)</span>
+<p>Der Ursprung der Schwäche des Liberalismus und seiner Gewaltenteilung ist die Bürokratie, die eben nicht gewählt wird. Darunter versteht Gramsci das Führungspersonal, das Macht ausübt und an einem bestimmten Punkt zu einer Kaste wird. Daraus resultiert die Forderung der Wahl eines jeglichen Postens. Diese Forderung ist extrem liberal und löst den Liberalismus zugleich auf, denn ein Staat kann nicht vollständig auf Wahlen beruhen, denn es braucht Expertise und Erfahrung.</p>
+<p>Das Gesetz - zusammen mit dem Schulsystem und anderen Institutionen - dient dem Staat als Instrument, um bestimmte Traditionen und Denkweisen zu eliminieren und andere zu kultivieren.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> Der Staat (Hegemon) nutzt Gesetze, um seine Hegemonie zu zementieren. Die CSDDD wäre somit ein Werkzeug gewesen, um Transparenz herzustellen und die grundlegende Art und Weise wirtschaftlichen Handelns zu hinterfragen.</p>
+<p><strong>Weiterführende Frage:</strong> Wurde die CSDDD im Moment hegemonialer Schwäche der Wirtschaftsinteressen verabschiedet oder gab es gar eine progressive Hegemonie? Die Intensität des Widerstands dient als Indikator für die tatsächliche Bedrohung hegemonialer Interessen.</p></div>
+<span class="cite-line">(Gramsci, 1971, p. 246)</span>
+<p>Gramsci beschreibt, dass das Recht zwei Seiten hat: eine repressive (Strafe) und eine positive (Belohnung, Anerkennung). Beide Seiten formen Verhalten. Strafe funktioniert nicht nur juridisch, sondern auch moralisch. Wer gegen Normen verstößt, wird nicht nur rechtlich bestraft, sondern auch gesellschaftlich sanktioniert.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> Die CSDDD hätte den doppelten Mechanismus etabliert: Sorgfaltspflichten als rechtliche Norm, aber mit den langfristigen Ziel, einen neuen common sense in Bezug auf unternehmerische Verantwortung zu erzeugen. Die Entkernung der CSDDD verhindert nicht nur die Haftung von Unternehmen, sondern blockiert den formativen Prozess unternehmerischer Verantwortung einschließlich des moralischen Verständnisses verantwortungsvollen Wirtschaftens.</p></div>
+<span class="cite-line">(Gramsci, 1971, p. 247)</span>
+<p>Der Staat nutzt politische Organisationen, um Konsens herzustellen. Diese Organisationen sind meist privat durch die herrschende Klasse organisiert.</p>
+<span class="cite-line">(Gramsci, 1971, p. 259)</span>
+<p>Der Staat als Nachtwächter hat lediglich die Funktion, die Ordnung aufrechtzuerhalten und das Recht durchzusetzen. Gramsci hält die Vorstellung für Unsinn, da in diesem Szenario, die Zivilgesellschaft Hegemon ist. Doch auch Zivilgesellschaft ist Staat, meint Gramsci, da sie Hegemonie produziert und reproduziert.</p>
+<div class="interp"><div class="interp-label">Eigene Interpretation</div><p><strong>Eigene Interpretation:</strong> Liberale fordern häufig den Nachtwächterstaat, der für weniger Eingriffe steht. Dahinter verbirgt sich jedoch keineswegs neutrale Staatsreduktion, sondern die Durchsetzung einer bestimmten hegemonialen Ordnung, die bestimmte Interessen als allgemeine ausgibt. Der Rückzug des Staates aus der Lieferkettenregulierung ist also kein Rückzug des Staates – sondern aktive Marktpolitik zugunsten etablierter Wirtschaftsinteressen.</p>
+<p>Das Argument "weniger Staat, mehr Markt" im Omnibus-Prozess suggeriert, dass der Rückzug aus der Lieferkettenregulierung einen neutralen Raum schafft. Gramsci entlarvt das als Kategorienfehler – oder bewusste Verschleierung. Der entstehende "freie Markt" ist kein herrschaftsfreier Raum, sondern ein von bestimmten hegemonialen Interessen geformter und kontrollierter Raum.</p></div>
+<span class="cite-line">(Gramsci, 1971, p. 261)</span>
+<p>Als Gegensätze zum Staat als Nachtwächter beschreibt Gramsci den ethischen Staat oder den interventionistischen Staat.</p>
+<p>Der ethische Staat geht auf Hegel zurück. Er beschreibt die autonome, erziehende und moralische Aktivität des säkularen Staates.</p>
+<p>Der interventionistische Staat ist ein ökonomisches Konzept und bezieht sich zum einen auf Protektionismus und ökonomischen Nationalismus. Zum anderen auf den Versuch, Staatsbeamte mit Landbesitz und feudaler Herkunft mit dem Schutz der Arbeiterklasse gegen die Exzesse des Kapitalismus zu beauftragen. Hier verweist Gramsci auf Disraeli und Bismarck.</p>
+<p>Liberale (Ökonomen) sprechen sich wenig überraschend für den Staat als Nachtwächter aus, damit das Heft des Handelns in der Zivilgesellschaft liegt.</p>
+<span class="cite-line">(Gramsci, 1971, p. 262)</span>
+<p>Stufenmodell des politischen Bewusstseins (wird an anderer Stelle erklärt!)</p>
+<p>Erste Stufe: “Economic corporative primitivism”. Darunter versteht Gramsci eine Gruppe, die ihre gemeinsamen Interessen innerhalb einer engen Kategorie ökonomischer Interessen findet. Das ist der "Primitivismus": partikulares Interessendenken ohne universellen Anspruch.</p>
+<p>Zweite Stufe: Gruppe erkennt Interessen der eigenen Klasse. Politisches Klassenbewusstsein entsteht.</p>
+<p>Dritte Stufe: Die Gruppe transzendiert ihre eigenen Interessen und präsentiert sie als allgemeine gesellschaftliche Interessen. Das ist vollständige Hegemonie.</p>
+<span class="cite-line">(Gramsci, 1971, pp. 263-264)</span>
+<h2>The Intellectuals</h2>
+<p>Kernthese: Es gibt keine unabhängige soziale Funktion/Kategorie der Intellektuellen, unabhängig von (ihrer) Klasse.</p>
+<p>Gramsci unterscheidet “traditional” und “organic” intellectuals. “Traditional” intellectuals sind professionelle Intellektuelle wie Wissenschaftler, Literaten usw. Lt. Gramsci haben sie eine Aura, als würden sie über den Klassen schweben, aber ihre Position leitet sich letztlich aus gegenwärtigen und vergangenen Klassenkonfigurationen ab.</p>
+<p>Die “organic” intellectuals sind das denkende und organisierende Element ihrer sozialen Klasse. Sie werden nicht durch ihre Profession ausgezeichnet, sondern durch ihre Funktion als Lenker der Ideen und Ansinnen ihrer Klassen.</p>
+<span class="cite-line">(Gramsci, 1971, p. 3)</span>
+<p>Das demokratisch-bürokratische System begründet eine Masse an Funktionen, die nicht für die Produktion erforderlich sind, sondern durch die politischen Notwendigkeiten der dominanten Gruppe.</p>
+<span class="cite-line">(Gramsci, 1971, p. 13)</span>
+<p>Die politische Partei erfüllt die Funktion, “organic” und “traditional” intellectuals zu verschmelzen.</p>
+<span class="cite-line">(Gramsci, 1971, p. 15)</span>
+<p>Die Funktion jedes Parteimitglieds ist intellektuell insofern, als dass sie oder er Richtung weist, organisiert und weitergibt.</p>
+<span class="cite-line">(Gramsci, 1971, p. 16)</span>
+    </div>
+    <div class="post-references">
+      <h3>Quelle</h3>
+      <p>Gramsci, Antonio (1971)<br><em>Selections from the prison notebooks of Antonio Gramsci</em></p>
+    </div>
+  </article>
+</main>
+<footer><p>© 2026 Philipp Schöneberg</p></footer>
+</body></html>
